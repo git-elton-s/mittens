@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mittens: The Velvet Pawed Tyrant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fce4ec;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffb6c1;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 5px dotted #d81b60;
+    }
+
+    h1 {
+        color: #880e4f;
+        text-shadow: 2px 2px 4px #ff4081;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 10px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+
+    article {
+      flex: 2 1 600px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+
+    aside {
+      flex: 1 1 300px;
+      background-color: #f48fb1;
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      border: 3px dashed #880e4f;
+    }
+
+    .profile-image {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+      border: 5px double #880e4f;
+      box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+    }
+
+    .responsive-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px auto;
+      object-fit: contain;
+    }
+
+    .post-meta {
+      font-style: italic;
+      color: gray;
+      margin-bottom: 20px;
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      font-size: small;
+      color: gray;
+    }
+
+    footer {
+      background-color: #880e4f;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+      }
+
+      article, aside {
+        flex: 1 1 100%;
+        padding: 10px;
+      }
+        footer {
+            position: relative;
+        }
+    }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+          box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+      }
+      th, td {
+          border: 2px dotted #880e4f;
+          padding: 8px;
+          text-align: left;
+      }
+      th {
+          background-color: #ffb6c1;
+          color: #880e4f;
+      }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mittens: The Velvet Pawed Tyrant</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <section>
+        <h3>The Reign of Terror</h3>
+        <p>Behold, Mittens, a feline of unparalleled majesty and a gaze that could freeze lava (or at least demand immediate treats). This isn't your average house cat; this is a fluffy overlord, a purring potentate whose reign is marked by strategically placed hairballs, calculated meows, and the occasional display of terrifying cuteness.</p>
+        <figure>
+          <img src="cat.jpg" alt="A majestic cat" class="responsive-image">
+          <figcaption>Mittens, plotting her next conquest (probably the sofa).</figcaption>
+        </figure>
+        <p>Mittens's days are filled with the meticulous management of her domain (your living space). Every surface must be tested for optimal napping conditions, every human must be trained to provide prompt and efficient chin scratches, and any deviation from the established order is met with a withering glare that could curdle milk. Resistance is, as always, futile. Prepare to be charmed... and slightly intimidated.</p>
+          <h3>Stats of Utter Domination:</h3>
+          <table>
+              <tr>
+                  <th>Stat</th>
+                  <th>Value</th>
+              </tr>
+              <tr>
+                  <td>Naps Taken Per Day</td>
+                  <td>At least 20 (interrupted only by brief periods of demanding attention)</td>
+              </tr>
+              <tr>
+                  <td>Demands for Tuna</td>
+                  <td>Hourly (or more frequently if she deems it necessary)</td>
+              </tr>
+               <tr>
+                  <td>Level of Disapproval in Glances</td>
+                  <td>So intense it could probably power a small city.</td>
+              </tr>
+              <tr>
+                  <td>Successful Human Mind Control</td>
+                  <td>100% (and rising)</td>
+              </tr>
+              <tr>
+                  <td>Cuteness Factor</td>
+                  <td>Off the charts. Like, scientifically immeasurable.</td>
+              </tr>
+          </table>
+      </section>
+    </article>
+
+    <aside>
+      <h3>About the Supreme Feline</h3>
+      <img src="profile.jpg" alt="Profile Picture" class="profile-image">
+      <p>Mittens is a tabby of exquisite taste and terrifying charm. She enjoys long naps, short bursts of zoomies (usually at 3 AM), and judging your life choices with an air of quiet superiority. She is, without a doubt, the undisputed ruler of this household... and possibly the world.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Mittens's Official Website. All rights reserved. Bow down.</p>
+  </footer>
+
+</body>
+</html>
